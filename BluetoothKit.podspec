@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/rasmusth/BluetoothKit'
   s.authors  = { 'Rasmus Taulborg Hummelmose' => 'rasmus@hummelmose.dk' }
   s.summary  = 'Easily communicate between iOS devices using BLE.'
-  s.source   = { :git => 'https://github.com/rasmusth/BluetoothKit.git', :tag => "#{s.version}" }
+  s.source   = { :git => 'https://github.com/aosipov/BluetoothKit.git', :tag => "#{s.version}" }
   s.source_files = 'Source/**/*.{swift}', 'Umbrella/**/*.{h}'
   s.requires_arc = true
   s.osx.deployment_target = '10.10'
